@@ -1,12 +1,12 @@
 class Kryofetch < Formula
   desc "System fetch tool for macOS, built with the Krypton language"
   homepage "https://github.com/t3m3d/kryofetch"
-  version "1.2.20"
+  version "1.2.21"
   license "MIT"
 
   on_arm do
-    url "https://github.com/t3m3d/kryofetch/releases/download/v1.2.20/kryofetch-1.2.20-macos-arm64.tar.gz"
-    sha256 "aeff11e2e9cccf037e66d2a9aee34b352101ac29dcacf874b364b8f8efec6dec"
+    url "https://github.com/t3m3d/kryofetch/releases/download/v1.2.21/kryofetch-1.2.21-macos-arm64.tar.gz"
+    sha256 "d4d4b9c79d39961d3e9e0a4897ced4e3667d2ac24e5b9aea5057ebfa406c7f87"
   end
 
   def install
